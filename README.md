@@ -5,13 +5,9 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-This add-events-handlers branch was created to achieve the following:
-- Copy  the files `calculate.js` and `operate.js` into a `logic/` directory in your project.
-- Analyze the files `calculate.js` and `operate.js`, be sure you understand what they do.
-- Import the files in your Calculator component.
-- Implement the event handlers you need to use the math logic from `calculate.js` and `operate.js` in your React component.
-- Practice what you have learned until now: use `state` and `props`, pass props to *child* components, use lifecycle methods, *lift state up*.
-- Test your app in the browser. It should be able to perform math operations.
+This add-hooks branch was created to achieve the following:
+- Refactor the Calculator component (`components/Calculator.js`) from a class based component to a functional component with *hooks*.
+- After the refactor is done, test the app in the browser. It should keep the same functionality.
 
 ## Built With
 
