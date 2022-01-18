@@ -10,7 +10,11 @@ This add-hooks branch was created to achieve the following:
 - After the refactor is done, test the app in the browser. It should keep the same functionality.
 
 ## Live Demo
-The live demo is available at https://koomekevo.github.io/react-math-magicians/
+### Heroku
+The live demo of the app is available at https://koomekevo-react-math-magicians.herokuapp.com/
+
+### Netlify
+The live demo of the app is available at https://koomekevo-react-math-magicians.netlify.app/
 
 ## Built With
 
