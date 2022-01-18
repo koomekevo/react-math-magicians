@@ -9,6 +9,9 @@ This add-hooks branch was created to achieve the following:
 - Refactor the Calculator component (`components/Calculator.js`) from a class based component to a functional component with *hooks*.
 - After the refactor is done, test the app in the browser. It should keep the same functionality.
 
+## Live Demo
+The live demo is available at https://koomekevo.github.io/react-math-magicians/
+
 ## Built With
 
 - Reactjs
