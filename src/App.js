@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+/* eslint-disable react/prefer-stateless-function */
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import Calculator from './components/Calculator';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <NavBar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/calculator">
+
+          <div className="main-container col-8 d-flex flex-column justify-content-center">
+            <Calculator />
+          </div>
+        </Route>
+        <Route path="/quote">
+          <Quote />
+        </Route>
+      </Switch>
+    </>
   );
 }
-
-export default App;
